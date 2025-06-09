@@ -223,7 +223,7 @@ function showNotification(message, type = "info") {
         position: fixed;
         top: 100px;
         right: 20px;
-        background: ${type === "success" ? "#2ecc71" : type === "error" ? "#e74c3c" : "#3498db"};
+        background: ${type === "success" ? "#2ecc71" : type === "error" ? "#f7374f" : "#88304e"};
         color: white;
         padding: 1rem 1.5rem;
         border-radius: 8px;
@@ -349,7 +349,7 @@ function addScrollToTopButton() {
         right: 20px;
         width: 50px;
         height: 50px;
-        background: #3498db;
+        background: #f7374f;
         color: white;
         border: none;
         border-radius: 50%;

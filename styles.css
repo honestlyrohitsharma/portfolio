@@ -12,7 +12,7 @@ html {
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #2c2c2c;
   overflow-x: hidden;
 }
 
@@ -29,13 +29,13 @@ body {
   left: 0;
   width: 100%;
   height: 4px;
-  background: rgba(52, 152, 219, 0.2);
+  background: rgba(247, 55, 79, 0.2);
   z-index: 1001;
 }
 
 .scroll-progress {
   height: 100%;
-  background: linear-gradient(90deg, #3498db, #2980b9);
+  background: linear-gradient(90deg, #f7374f, #88304e);
   width: 0%;
   transition: width 0.1s ease;
 }
@@ -69,7 +69,7 @@ nav.scrolled {
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #2c3e50;
+  color: #522546;
   text-decoration: none;
 }
 
@@ -81,14 +81,14 @@ nav.scrolled {
 
 .nav-links a {
   text-decoration: none;
-  color: #333;
+  color: #2c2c2c;
   font-weight: 500;
   transition: color 0.3s ease;
   position: relative;
 }
 
 .nav-links a:hover {
-  color: #3498db;
+  color: #f7374f;
 }
 
 .nav-links a::after {
@@ -98,7 +98,7 @@ nav.scrolled {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #3498db;
+  background-color: #f7374f;
   transition: width 0.3s ease;
 }
 
@@ -116,7 +116,7 @@ nav.scrolled {
 .mobile-menu-toggle span {
   width: 25px;
   height: 3px;
-  background: #333;
+  background: #2c2c2c;
   transition: all 0.3s ease;
 }
 
@@ -138,7 +138,7 @@ nav.scrolled {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #f7374f 0%, #88304e 50%, #522546 100%);
   z-index: -2;
 }
 
@@ -346,7 +346,7 @@ nav.scrolled {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: #2c3e50;
+  color: #522546;
   position: relative;
   font-weight: 700;
 }
@@ -356,7 +356,7 @@ nav.scrolled {
   position: absolute;
   width: 50px;
   height: 3px;
-  background: linear-gradient(90deg, #3498db, #2980b9);
+  background: linear-gradient(90deg, #f7374f, #88304e);
   bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
@@ -412,7 +412,7 @@ nav.scrolled {
 .stat-number {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #3498db;
+  color: #f7374f;
   margin-bottom: 0.5rem;
 }
 
@@ -439,7 +439,7 @@ nav.scrolled {
   top: 0;
   bottom: 0;
   width: 2px;
-  background: #3498db;
+  background: #f7374f;
   transform: translateX(-50%);
 }
 
@@ -464,11 +464,11 @@ nav.scrolled {
   top: 1rem;
   width: 20px;
   height: 20px;
-  background: #3498db;
+  background: #f7374f;
   border: 4px solid white;
   border-radius: 50%;
   transform: translateX(-50%);
-  box-shadow: 0 0 0 4px #3498db;
+  box-shadow: 0 0 0 4px #f7374f;
 }
 
 .education-card {
@@ -494,13 +494,13 @@ nav.scrolled {
 }
 
 .education-header h3 {
-  color: #2c3e50;
+  color: #522546;
   font-size: 1.3rem;
   flex: 1;
 }
 
 .education-year {
-  background: #3498db;
+  background: #f7374f;
   color: white;
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
@@ -509,7 +509,7 @@ nav.scrolled {
 }
 
 .degree {
-  color: #3498db;
+  color: #f7374f;
   font-weight: 600;
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
@@ -541,7 +541,7 @@ nav.scrolled {
 }
 
 .grade-value {
-  color: #3498db;
+  color: #f7374f;
   font-weight: bold;
 }
 
@@ -571,12 +571,12 @@ nav.scrolled {
 
 .skill-icon {
   font-size: 3rem;
-  color: #3498db;
+  color: #f7374f;
   margin-bottom: 1rem;
 }
 
 .skill-category h3 {
-  color: #2c3e50;
+  color: #522546;
   margin-bottom: 1.5rem;
   font-size: 1.3rem;
 }
@@ -593,7 +593,7 @@ nav.scrolled {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 500;
-  color: #333;
+  color: #2c2c2c;
 }
 
 .skill-bar {
@@ -605,7 +605,7 @@ nav.scrolled {
 
 .skill-progress {
   height: 100%;
-  background: linear-gradient(90deg, #3498db, #2980b9);
+  background: linear-gradient(90deg, #f7374f, #88304e);
   width: 0%;
   transition: width 1.5s ease;
   border-radius: 4px;
@@ -619,7 +619,7 @@ nav.scrolled {
 }
 
 .soft-skill-tag {
-  background: #3498db;
+  background: #f7374f;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -628,7 +628,7 @@ nav.scrolled {
 }
 
 .soft-skill-tag:hover {
-  background: #2980b9;
+  background: #88304e;
 }
 
 .language-skills {
@@ -650,7 +650,7 @@ nav.scrolled {
 }
 
 .language-level {
-  background: #3498db;
+  background: #f7374f;
   color: white;
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
@@ -683,13 +683,13 @@ nav.scrolled {
 
 .project-image {
   height: 200px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #f7374f 0%, #88304e 100%);
   position: relative;
   overflow: hidden;
 }
 
 .project-card:nth-child(2) .project-image {
-  background: linear-gradient(135deg, #9c27b0 0%, #673ab7 100%);
+  background: linear-gradient(135deg, #88304e 0%, #522546 100%);
   position: relative;
   overflow: hidden;
 }
@@ -759,7 +759,7 @@ nav.scrolled {
 
 .tech-tag {
   background: rgba(255, 255, 255, 0.9);
-  color: #333;
+  color: #2c2c2c;
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
   font-size: 0.8rem;
@@ -771,7 +771,7 @@ nav.scrolled {
 }
 
 .project-title {
-  color: #2c3e50;
+  color: #522546;
   margin-bottom: 1rem;
   font-size: 1.3rem;
 }
@@ -798,13 +798,13 @@ nav.scrolled {
   content: "✓";
   position: absolute;
   left: 0;
-  color: #3498db;
+  color: #f7374f;
   font-weight: bold;
 }
 
 /* Contact Section */
 .contact {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #f7374f 0%, #88304e 50%, #522546 100%);
   color: white;
 }
 
@@ -922,7 +922,7 @@ nav.scrolled {
 
 /* Footer */
 .footer {
-  background: #2c3e50;
+  background: #2c2c2c;
   color: white;
   padding: 2rem 0;
 }
@@ -943,7 +943,7 @@ nav.scrolled {
 .social-link {
   width: 40px;
   height: 40px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(247, 55, 79, 0.2);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -954,7 +954,7 @@ nav.scrolled {
 }
 
 .social-link:hover {
-  background: #3498db;
+  background: #f7374f;
   transform: translateY(-2px);
 }
 
